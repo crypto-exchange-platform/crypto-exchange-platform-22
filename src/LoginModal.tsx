@@ -62,7 +62,7 @@ export const LoginModal: FC<LoginModalProps> = ({ onClose }) => {
             {error && <div className="text-red-500 text-sm">{error}</div>}
             <button
                 type="submit"
-                className="w-full bg-blue-400 text-white py-2 rounded hover:bg-gray-900 cursor-pointer"
+                className="w-full bg-red-400 text-white py-2 rounded hover:bg-gray-900 cursor-pointer"
             >
               Log In
             </button>

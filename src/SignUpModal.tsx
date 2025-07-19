@@ -188,7 +188,7 @@ export const SignupModal: FC<SignupModalProps> = ({ onClose, onSignupSuccess }) 
           )}
           <button
             type="submit"
-            className="w-full bg-blue-400 text-white py-2 rounded col-span-full hover:bg-gray-900 cursor-pointer"
+            className="w-full bg-red-400 text-white py-2 rounded col-span-full hover:bg-gray-900 cursor-pointer"
           >
             Sign Up
           </button>
